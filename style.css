@@ -1,0 +1,673 @@
+body,
+header,
+footer,
+div,
+h3,
+h2,
+h1,
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+header {
+    max-height: 90%;
+}
+
+.home_img {
+    height: 90%;
+    max-width: 90%;
+    position: relative;
+    top: 0.3em;
+}
+
+main {
+    background-color: white;
+    padding: 3.5%;
+}
+
+main h2 {
+    margin-top: 10%;
+}
+
+li h1,
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+
+main p {
+    font-size: larger;
+}
+
+footer {
+    background-color: black;
+    padding: 0.1%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.heading {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    transform: scale(1);
+}
+
+
+.hello {
+    font-size: 200%;
+    margin-bottom: 0.5em;
+
+
+}
+
+.mob-head {
+    color: black;
+}
+
+.name {
+    font-size: 200%;
+
+}
+
+.heading,
+h2,
+p {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+footer .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Navbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.895);
+    overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+
+.Navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3em;
+    margin-left: 50px;
+
+
+}
+
+.Navbar a {
+    padding: 8px 8px 8px 35px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 2em;
+    display: block;
+    transition: 0.6s;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.menu {
+    position: absolute;
+    padding: 2%;
+    top: 0;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 1em;
+    margin-left: -1em;
+}
+
+li img {
+    max-width: 100%;
+}
+
+.wd h1 {
+    margin-top: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.gd h1,
+.ui h1 {
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 3px solid black;
+    border-bottom: 1px solid grey;
+
+}
+
+.gd h2,
+.ui h2,
+.wd h2 {
+    margin-bottom: 1em;
+
+}
+
+.ui,
+li img {
+    margin-bottom: 3em;
+}
+
+ul .work-caption {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+
+.experiences li {
+    list-style-type: disc;
+    margin-bottom: 3em;
+}
+
+.experiences li h3 {
+    font-size: 25px;
+    margin-bottom: 0.5em;
+
+}
+
+.experiences li h1 {
+    margin-bottom: 0.5em;
+
+}
+
+.experiences li img {
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+    margin-bottom: 0;
+    margin-top: -1em;
+}
+
+.experiences li img:hover {
+    opacity: 0.5;
+}
+
+.experiences li a {
+    text-align: right;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 23px;
+
+
+
+}
+
+fieldset {
+    border: 2px solid black;
+    width: 90%;
+    margin: 2em auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    float: right;
+}
+
+label {
+    margin-bottom: 2em;
+    margin-top: 1em;
+    display: block;
+    font-size: 18px;
+
+}
+
+legend {
+    font-size: 23px;
+}
+
+.description {
+    margin-top: -0.1em;
+}
+
+.rate-portfolio {
+    color: black;
+}
+
+.btns {
+    margin-right: 15%;
+    margin-bottom: 6em;
+}
+
+.sub {
+    margin-left: 24%;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    width: 30%;
+    padding: 3%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.res {
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    width: 30%;
+    padding: 3%;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.Navbar_tablet {
+    display: none;
+}
+
+.p-experien {
+    font-size: 26px;
+    margin-bottom: 8em;
+    margin-right: 1em;
+}
+
+.grid p {
+    font-size: 22px;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (min-width:630px),
+print {
+    .heading {
+        text-align: center;
+        max-width: 52%;
+        margin: 0 auto;
+        margin-top: 1.5em;
+        position: relative;
+        top: 9em;
+        left: 7em;
+        font-size: 23px;
+    }
+
+
+
+    .home_img {
+        height: 70%;
+        max-width: 70%;
+        position: relative;
+    }
+
+    input,
+    textarea {
+        float: right;
+        border: 2px solid black;
+    }
+
+    label {
+        margin-bottom: 2em;
+        margin-top: 1em;
+        display: block;
+        font-size: 23px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    body {
+        background-color: antiquewhite;
+
+    }
+
+    .Navbar_tablet {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        top: 0em;
+        background-color: antiquewhite;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        z-index: 1;
+
+
+    }
+
+    .Navbar_tablet a {
+        text-decoration: none;
+        font-size: 25px;
+        margin: 1.5%;
+        color: black;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 550;
+
+
+    }
+
+    .header-page {
+        display: none;
+    }
+
+    .description {
+        padding-top: 2em;
+    }
+
+
+
+
+    .gd {
+        max-width: 83%;
+        margin: 0 auto;
+    }
+
+    .ui {
+        max-width: 83%;
+        margin: 0 auto;
+    }
+
+    .wd {
+        max-width: 83%;
+        margin: 0 auto;
+    }
+
+    .experiences li img {
+        max-width: 19%;
+        max-height: 19%;
+        float: right;
+        margin-top: -0.6em;
+    }
+
+    .experiences li h3 {
+        font-size: 25px;
+        margin-bottom: 0.7em;
+
+    }
+
+    .experiences li h1 {
+        margin-bottom: 0.5em;
+        margin-top: 0;
+
+    }
+
+    .btns {
+        margin-right: 22%;
+        margin-bottom: 6em;
+    }
+
+    .sub {
+        margin-left: 24%;
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+        width: 25%;
+        padding: 3%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    .res {
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+        width: 25%;
+        padding: 3%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+
+
+    }
+
+    .page-height-ipad {
+        background-color: white;
+        padding: 3.5%;
+        padding-bottom: 36em;
+    }
+
+    .p-experien {
+        font-size: 26px;
+        margin-bottom: 8em;
+        margin-right: 1em;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 20em auto;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 20px;
+
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 2%;
+    }
+
+    th {
+        background-color: antiquewhite;
+        color: black;
+        font-size: 1.15em;
+    }
+
+    caption {
+        font-size: 25px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: 2%;
+    }
+
+    .mob {
+        display: inline-table;
+    }
+
+
+}
+
+@media screen and (min-width:1015px),
+print {
+
+
+    .heading {
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 1.5em;
+        font-size: 1.5em;
+    }
+
+
+    .home_img {
+        height: 37%;
+        max-width: 37%;
+        position: relative;
+        top: -7.7em;
+        left: 2em;
+    }
+
+    .grid {
+        list-style-type: none;
+        margin-right: 1em;
+        margin-left: -1em;
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 20px;
+    }
+
+    .grid_portf {
+        list-style-type: none;
+        margin-right: 1em;
+        margin-left: -1em;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 2em;
+    }
+
+    li {
+        padding: 1em;
+    }
+
+    .ui {
+        margin-top: -55em;
+        border-top: 3px solid black;
+
+    }
+
+    .gd h1,
+    .ui h1 {
+        margin-top: 2em;
+        padding-top: 0;
+        border-top: none;
+        border-bottom: 1px solid grey;
+
+    }
+
+    .Navbar_computer {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        top: 0em;
+        background-color: antiquewhite;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        z-index: 1;
+    }
+
+    .page-height {
+        background-color: white;
+        padding: 3.5%;
+        margin-top: -8em;
+    }
+
+    label {
+        margin-bottom: 2em;
+        margin-top: 1em;
+        display: block;
+        font-size: 25px;
+
+    }
+
+    fieldset {
+        border: 2px solid black;
+        width: 80%;
+        margin: 2em auto;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+    }
+
+    .description {
+        margin-top: -0.1em;
+        margin-left: 4em;
+    }
+
+    .btns {
+        margin-right: 22%;
+        margin-bottom: 6em;
+    }
+
+    .sub {
+        margin-left: 24%;
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+        width: 22%;
+        padding: 2%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    .res {
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+        width: 22%;
+        padding: 2%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+
+
+    }
+
+    .experiences li img {
+        max-width: 16%;
+        max-height: 16%;
+        float: right;
+    }
+
+
+}
+
+.arrow-up {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    font-size: 37px;
+    z-index: 1;
+    color: aliceblue;
+    background-color: #000000d8;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    opacity: 70%;
+    cursor: pointer;
+
+}
+
+.show {
+    display: block;
+
+}
+
+.hide {
+    display: none;
+
+}
